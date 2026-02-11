@@ -35,13 +35,13 @@ For full details, see the [official Obsidian CLI documentation](https://help.obs
 
 ```bash
 # Register marketplace (one-time setup)
-/plugin marketplace add ~/workspace/claude-plugins
+/plugin marketplace add https://github.com/yoonhoGo/claude-plugins
 
 # Install from marketplace
 /plugin install obsidian-cli@yoonho-plugins
 
-# Or add locally (without marketplace)
-/plugin add ~/workspace/claude-plugins/obsidian-cli
+# Or add directly from GitHub (without marketplace)
+/plugin add https://github.com/yoonhoGo/claude-plugins/tree/main/obsidian-cli
 ```
 
 ## Usage

@@ -4,6 +4,8 @@ Obsidian CLI integration plugin for Claude Code.
 
 터미널에서 Obsidian vault를 조작할 수 있게 해주는 Claude Code 플러그인입니다.
 
+[English](README.md)
+
 ## Features
 
 - **노트 관리** — 생성, 읽기, 수정, 이동, 삭제
@@ -14,24 +16,32 @@ Obsidian CLI integration plugin for Claude Code.
 - **고급 기능** — 플러그인, 테마, 워크스페이스, Publish, Sync 관리
 - **개발자 도구** — JS eval, 콘솔, 스크린샷, CSS 검사
 
+## About Obsidian CLI
+
+이 플러그인은 Obsidian에서 공식 제공하는 [Obsidian CLI](https://help.obsidian.md/cli)를 기반으로 합니다. Obsidian CLI는 실행 중인 Obsidian 앱과 통신하여 노트 생성, vault 검색, 속성 관리 등의 작업을 터미널에서 수행할 수 있게 해주는 커맨드라인 인터페이스입니다.
+
+> Obsidian CLI는 현재 **얼리 액세스** 기능입니다. [Catalyst 라이선스](https://obsidian.md/pricing)가 필요하며, `설정 → 일반 → 앱`에서 **"얼리 액세스 버전 받기"**를 활성화해야 합니다.
+
+자세한 내용은 [Obsidian CLI 공식 문서](https://help.obsidian.md/cli)를 참고하세요.
+
 ## Prerequisites
 
 - Obsidian 1.12+ (CLI 지원 버전)
 - Obsidian 앱 실행 중 (CLI는 실행 중인 앱과 통신)
 - `obsidian` 바이너리가 PATH에 등록
-- Catalyst 라이선스 (얼리 액세스)
+- [Catalyst 라이선스](https://obsidian.md/pricing) (얼리 액세스)
 
 ## Installation
 
 ```bash
 # 마켓플레이스 등록 (최초 1회)
-/plugin marketplace add ~/workspace/claude-plugins
+/plugin marketplace add https://github.com/yoonhoGo/claude-plugins
 
 # 마켓플레이스에서 플러그인 설치
 /plugin install obsidian-cli@yoonho-plugins
 
-# 또는 로컬 직접 추가 (마켓플레이스 없이)
-/plugin add ~/workspace/claude-plugins/obsidian-cli
+# 또는 GitHub에서 직접 추가 (마켓플레이스 없이)
+/plugin add https://github.com/yoonhoGo/claude-plugins/tree/main/obsidian-cli
 ```
 
 ## Usage
