@@ -16,12 +16,20 @@ A Claude Code plugin that lets you control your Obsidian vault from the terminal
 - **Advanced Features** — Manage plugins, themes, workspaces, Publish, and Sync
 - **Developer Tools** — JS eval, console, screenshots, and CSS inspection
 
+## About Obsidian CLI
+
+This plugin is built on top of the official [Obsidian CLI](https://help.obsidian.md/cli), a command-line interface provided by Obsidian that allows terminal-based control of the Obsidian app. The CLI communicates with a running Obsidian instance to perform operations such as creating notes, searching vaults, managing properties, and more.
+
+> Obsidian CLI is currently an **early access** feature. A [Catalyst license](https://obsidian.md/pricing) is required, and you must enable **"Receive early access versions"** in `Settings → General → App` to access it.
+
+For full details, see the [official Obsidian CLI documentation](https://help.obsidian.md/cli).
+
 ## Prerequisites
 
 - Obsidian 1.12+ (version with CLI support)
 - Obsidian app running (CLI communicates with the running app)
 - `obsidian` binary available in PATH
-- Catalyst license (early access)
+- [Catalyst license](https://obsidian.md/pricing) (early access)
 
 ## Installation
 
