@@ -1,0 +1,9 @@
+{
+  "name": "obsidian-cli",
+  "version": "0.1.0",
+  "description": "Obsidian CLI integration for Claude Code - manage notes, search knowledge, and control Obsidian from the terminal",
+  "author": {
+    "name": "yoonho.go"
+  },
+  "keywords": ["obsidian", "notes", "knowledge-base", "cli", "productivity"]
+}

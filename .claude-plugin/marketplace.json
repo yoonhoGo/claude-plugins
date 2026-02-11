@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "yoonho-plugins",
+  "metadata": {
+    "description": "Custom Claude Code plugins for productivity and integrations"
+  },
+  "owner": {
+    "name": "yoonho.go"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-cli",
+      "description": "Obsidian CLI integration for Claude Code. Manage notes, search knowledge, control daily notes, and operate Obsidian entirely from the terminal through natural language.",
+      "version": "0.1.0",
+      "author": {
+        "name": "yoonho.go"
+      },
+      "source": "./obsidian-cli",
+      "category": "productivity",
+      "tags": ["obsidian", "notes", "knowledge-base"]
+    }
+  ]
+}
